@@ -67,7 +67,7 @@ export function WorkshopForm({
                 required
                 minLength={2}
                 maxLength={40}
-                pattern="[A-Za-z0-9_-]+"
+                pattern="[A-Za-z0-9_\-]+"
                 placeholder="POT-102"
                 value={form.code}
                 onChange={(event) =>
