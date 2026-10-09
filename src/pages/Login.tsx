@@ -27,8 +27,8 @@ export function Login({ onLogin }: { onLogin: (user: User) => void }) {
     <main className="login-layout">
       <section className="login-story">
         <div className="brand">
-          <span className="brand-symbol">g</span>gather
-          <span className="brand-dot">.</span>
+          <img src="/gather-logo-on-navy.webp" alt="Gather" className="brand-logo" />
+          <span>gather<span className="brand-dot">.</span></span>
         </div>
         <div>
           <p className="eyebrow">COMMUNITY LEARNING, TOGETHER</p>

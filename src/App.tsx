@@ -40,7 +40,8 @@ export default function App() {
     return (
       <main className="initial-loading">
         <div className="brand">
-          <span className="brand-symbol">g</span>gather.
+          <img src="/gather-logo.webp" alt="Gather" className="brand-logo" />
+          <span>gather.</span>
         </div>
         <p>Opening your workspace…</p>
       </main>
@@ -50,8 +51,8 @@ export default function App() {
     <div className="app-layout">
       <aside className="sidebar">
         <div className="brand">
-          <span className="brand-symbol">g</span>gather
-          <span className="brand-dot">.</span>
+          <img src="/gather-logo.webp" alt="Gather" className="brand-logo" />
+          <span>gather<span className="brand-dot">.</span></span>
         </div>
         <p className="nav-caption">STAFF WORKSPACE</p>
         <nav aria-label="Main navigation">
