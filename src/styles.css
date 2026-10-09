@@ -115,21 +115,29 @@ p {
   margin-bottom: 8px;
 }
 .brand {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  font-size: 27px;
+  font-size: 28px;
   font-weight: 800;
-  letter-spacing: -1.2px;
-  gap: 8px;
+  gap: 3px;
   white-space: nowrap;
+  user-select: none;
 }
 .brand-logo {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
   display: inline-block;
   flex-shrink: 0;
-  border-radius: 8px;
+  vertical-align: middle;
+}
+.brand-text {
+  letter-spacing: -0.7px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: baseline;
+  font-weight: 800;
+  margin-left: -5px;
 }
 .brand-symbol {
   display: grid;
@@ -144,8 +152,12 @@ p {
   line-height: 1;
 }
 .brand-dot {
-  color: #cf9465;
-  margin-left: -8px;
+  color: #cf8347;
+  margin-left: 1px;
+  display: inline-block;
+}
+.login-story .brand-dot {
+  color: #e8b789;
 }
 .app-layout {
   display: grid;
